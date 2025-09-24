@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tarea 1 - David Delgado Cortés</title>
+    <link href="style.css" rel="stylesheet" /> <!-- Implementados con apoyo de IA -->
+</head>
+
+<body class="container">
+
+    <section class="hero">
+        <div class="hero__name">
+            <h1 class="hero__title">
+                <span>David Delgado</span><br>
+                <span>Cortés</span>
+            </h1>
+            <p>Tarea 1 - ISW-512-III25-C02</p>
+        </div>
+
+        <figure class="hero__avatar">
+            <img src="https://i.pinimg.com/1200x/e5/ae/49/e5ae49941218c5ae2efe5e3554b6842a.jpg" alt="Avatar">
+        </figure>
+    </section>
+
+    <h1>Etiquetas de estructura de sección</h1>
+    <div class="card">
+        <h1>Esto es un título de nivel 1</h1>
+        <h2>Esto es un título de nivel 2</h2>
+        <h3>Esto es un título de nivel 3</h3>
+        <h4>Esto es un título de nivel 4</h4>
+        <h5>Esto es un título de nivel 5</h5>
+        <h6>Esto es un título de nivel 6</h6>
+    </div>
+
+    <div class="card">
+        <h3>Uso de etiqueta hgroup:</h3>
+        <hgroup>
+            <h1>Este titulo se encuentra en un hgroup</h1>
+            <p>Este parrafo también, esto me permite definir que ambos elementos estan relacionados</p>
+        </hgroup>
+    </div>
+
+    <div class="card">
+        <h3>Uso de etiqueta address:</h3>
+        <address>
+            Desarrollado por <a href="mailto:ddelgado@example.com">David Delgado</a>.<br />
+            Alajuela, Costa Rica
+        </address>
+    </div>
+
+    <div class="card">
+        <h3>Uso de etiqueta figure:</h3>
+        <p>En este caso, se inserta un video de Youtube.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p09i_hoFdd0?si=J4vePabOKtHGcyAz"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br />
+    <h1>Etiquetas de estructura de grupo</h1>
+    <div class="card">
+        <h2>Listas</h2>
+        <h3>Lista desordenada (ul)</h3>
+        <ul>
+            <li>Rojo</li>
+            <li>Morado</li>
+            <li>Verde</li>
+        </ul>
+        <h3>Lista ordenada (ol)</h3>
+        <ol>
+            <li>Primer lugar</li>
+            <li>Segundo lugar</li>
+            <li>Tercer lugar</li>
+        </ol>
+        <h3>Lista con descripción (dl,dt,dd)</h3>
+        <dl>
+            <dt>Café</dt>
+            <dd>Bebida caliente</dd>
+            <dt>Refresco</dt>
+            <dd>Bebida fría</dd>
+        </dl>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta figure y figcaption</h2>
+        <figure>
+            <img alt="figure" height="315"
+                src="https://i.pinimg.com/1200x/a8/d2/8b/a8d28bf565a746145e4edaf1c5c62fa4.jpg" width="200" />
+            <figcaption>Fig.1 - Imagen de girasoles</figcaption>
+        </figure>
+    </div>
+    <div class="card">
+        <h2>Uso de etiqueta details y summary</h2>
+        <details>
+            <summary>Esto es un summary</summary>
+            <p>Especifica detalles que el usuario puede abrir y cerrar.</p>
+        </details>
+    </div>
+
+    <dialog open="">Esto es una ventana emergente de dialogo (no sé como acomodarla D:)</dialog><br><br><br>
+
+    <h1>Etiquetas de estructura de texto</h1>
+
+    <div class="card">
+        <h2>Uso de etiqueta "p":</h2>
+        <p>Esto es un parrafo</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "pre":</h2>
+        <pre> Esto es un texto preformateado, mantiene la estructura y formato del código fuente.</pre>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "blockquote":</h2>
+        <p>Permite especificar una sección citada desde otra fuente.</p>
+        <hr>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,
+            WWF
+            works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+            globally.
+        </blockquote>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "q":</h2>
+        <p> Define una cita en línea de un documento HTML.</p>
+        <hr>
+        <p>WWF's goal is to:
+            <q>Build a future where people live in harmony with nature.</q>
+            We hope they succeed.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "cite":</h2>
+        <p> Define el título de una obra citada de un documento HTML.</p>
+        <hr>
+        <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "abbr":</h2>
+        <p> Define una abreviatura o un acrónimo de un documento HTML.</p>
+        <hr>
+        El <abbr title="Instituto Nacional de Aprendizaje">INA</abbr> es una Institución autónoma que promueve la
+        formación y capacitación profesional.
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "dfn":</h2>
+        <p> Define una definición de un término de un documento HTML.</p>
+        <hr>
+        <p><dfn>HTML</dfn> es el lenguaje de marcado estándar para el desarrollo de páginas web.</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "code":</h2>
+        <p> Define un fragmento de código de un documento HTML.</p>
+        <hr>
+        <p>"La etiqueta <code>button</code> define un botón presionable."</p>
+        <p>"La propiedad <code>background-color</code> define el color de fondo de un elemento."</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "kbd":</h2>
+        <p>Define una entrada de teclado de un documento HTML.</p>
+        <hr>
+        <p>Presione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar texto.</p>
+        <p>Presione <kbd>Cmd</kbd> + <kbd>V</kbd> para pegar el texto copiado.</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "b":</h2>
+        <b>Esto es un texto en negrita.</b>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "strong":</h2>
+        <p>Define un texto fuerte de un documento HTML.</p>
+        <hr>
+        <strong>Esto es un texto importante!</strong>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "i":</h2>
+        <p>Define un texto en cursiva de un documento HTML.</p>
+        <hr>
+        <p><i>Este es un texto en cursiva.</i></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "em":</h2>
+        <p>Define un texto enfático de un documento HTML.</p>
+        <hr>
+        <p><em>Preste atención a este texto.</em></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "mark":</h2>
+        <p>Resalta o marca un fragmento de texto.</p>
+        <hr>
+        <p><mark>Este es un texto marcado</mark>.</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "small":</h2>
+        <p>Muestra información secundaria o aclaratoria.</p>
+        <hr>
+        <p>Esto es un texto de ejemplo <small>(Esto es un texto secundario)</small></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "del":</h2>
+        <p>Indica texto eliminado o reemplazado.</p>
+        <hr>
+        <p>"Antes: <del>₡12 000</del> Ahora: ₡10 000"</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "ins":</h2>
+        <p>Indica texto insertado o agregado.</p>
+        <hr>
+        <p>"Se agregó <ins>este producto</ins> a la canasta."</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "sub":</h2>
+        <p>Muestra texto en subíndice (debajo de la línea base).</p>
+        <hr>
+        <p>"Fórmula del agua: H<sub>2</sub>O"</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "sup":</h2>
+        <p>Muestra texto en superíndice (encima de la línea base).</p>
+        <hr>
+        <p>"Ecuación: x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>"</p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "time":</h2>
+        <p>Representa una fecha u hora con un valor legible por máquinas.</p>
+        <hr>
+        <p>Fecha: <time datetime="2025-09-23">23 de septiembre de 2025</time></p>
+        <p>Hora: <time datetime="2025-09-23T21:15-06:00">9:15 p.m.</time></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "data":</h2>
+        <p>Asocia un valor de datos a un texto visible.</p>
+        <hr>
+        <p>Producto: <data value="1001"><code>data value="1001"</code>Tomate</data></p>
+        <p>Producto: <data value="2001"><code>data value="2001"</code>Salsa de tomate</data></p>
+        <p>Producto: <data value="3001"><code>data value="3001"</code>Pasta de tomate</data></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "span":</h2>
+        <p>Envuelve una parte del texto para aplicar estilo o manejar con JS.</p>
+        <hr>
+        <p>Este texto tiene una palabra <span style="background:#f12d05;">resaltada</span> con
+            <code>span</code>.
+        </p>
+    </div>
+
+    <br>
+    <h1>Etiquetas de enlace</h1>
+
+    <div class="card">
+        <h2>Uso de etiqueta "a":</h2>
+        <p>Define un enlace que puede apuntar a páginas, secciones u otros recursos.</p>
+        <hr>
+        <p>Enlace al video anterior externo: <a href="https://www.youtube.com/watch?v=p09i_hoFdd0">Clic aquí</a></p>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiquetas "map" y "area":</h2>
+        <p>Define un mapa de imagen con áreas clicables.</p>
+        <hr>
+        <img src="https://www.w3schools.com/tags/workplace.jpg" alt="Imagen con zonas clicables" usemap="#workmap">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://es.wikipedia.org/wiki/Computadora">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://es.wikipedia.org/wiki/Tel%C3%A9fono">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://es.wikipedia.org/wiki/Caf%C3%A9">
+        </map>
+    </div>
+
+    <br>
+    <h1>Etiquetas de imagen y multimedia</h1>
+
+    <div class="card">
+        <h2>Uso de etiqueta "audio":</h2>
+        <p>Se utiliza para insertar archivos de audio en una página web.</p>
+        <hr>
+        <audio controls>
+            <source src="Multimedia/SoundEffect.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "video":</h2>
+        <p>Se utiliza para insertar archivos de video en una página web.</p>
+        <hr>
+        <video controls width="480" height="">
+            <source src="Multimedia/Video.mp4" type="video/mp4">
+            Tu navegador no soporta video.</a>.
+        </video>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "canvas":</h2>
+        <p>Define un lienzo de un documento HTML, que puede contener gráficos dibujados
+            con JavaScript o con la API de WebGL.</p>
+        <hr>
+        <canvas id="myCanvas">
+            Tu navegador no soporta la etiqueta canvas.
+        </canvas>
+
+        <script>
+            let canvas = document.getElementById("myCanvas");
+            let ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(0, 0, 80, 80);
+        </script>
+    </div>
+
+    <div class="card">
+        <h2>Uso de etiqueta "svg":</h2>
+        <p>Define un gráfico vectorial escalable de un documento HTML</p>
+        <hr>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="purple" />
+        </svg>
+    </div>
+</body>
+
+</html>
